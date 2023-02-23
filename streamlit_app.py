@@ -54,7 +54,7 @@ from urllib.error import URLError
 #streamlit.write('The user entered ', add_my_fruit)
 
 streamlit.header('Fruityvice Fruity Advice')
-try:
+#try:
  fruit_choice = streamlit.text_input('What fruit would you like information about?')
  #if not fruit_choice:
    #streamlit.error("Please select a fruit")
