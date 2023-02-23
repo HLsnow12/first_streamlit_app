@@ -64,7 +64,7 @@ try:
      streamlit.dataframe(fruityvice_normalized)
      
 except URL_Error as e:
-# streamlit.error()
+     streamlit.error()
 
 #Creating a function
 #def get_fruityvice_data(this_fruit_choice):
