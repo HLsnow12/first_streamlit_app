@@ -91,3 +91,18 @@ try:
      streamlit.dataframe(back_from_function)
 except URL_Error as e:
      streamlit.error()
+
+streamlit.header('The list contains')  
+
+def get_fruit_load_list()
+ with my_cnx.cursor() as my_cur;
+ my_cur.execute("select * from fruit_load_list")
+ return mycur.fetchall()
+
+#my_cnx = snowflake.connector.connect(**streamlit.secrets["snowflake"])
+#my_cur = my_cnx.cursor()
+#my_cur.execute("select * from fruit_load_list")
+#my_cur.execute ("insert into PC_RIVERY_DB.PUBLIC.FRUIT_LOAD_LIST values ('from streamlit test'));
+#my_data_row = my_cur.fetchall()
+#streamlit.text("Fruit Load List contains")
+#streamlit.dataframe(my_data_row)
