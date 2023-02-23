@@ -1,6 +1,7 @@
 # python libraries imported
 import streamlit
 import pandas
+import snowflake.connector
 
 
 #streamlit.title ('My parents healthy Meal 🥣 ')
